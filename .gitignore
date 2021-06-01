@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CPSCHomework7/bin/Debug/netcoreapp3.1
+/CPSCHomework7/obj/Debug/netcoreapp3.1
+/CPSCHomework7/obj
+/MainTestProject/bin/Debug/netcoreapp3.1
+/MainTestProject/obj/Debug/netcoreapp3.1
+/MainTestProject/obj
+/.vs/CPSCHomework7/v16

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPSCHomework7", "CPSCHomework7\CPSCHomework7.csproj", "{803AEA16-9F43-4F26-84AF-C5D2A3906CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainTestProject", "MainTestProject\MainTestProject.csproj", "{01A7FB1A-77C6-49D8-BD78-E55143AC830D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{803AEA16-9F43-4F26-84AF-C5D2A3906CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803AEA16-9F43-4F26-84AF-C5D2A3906CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803AEA16-9F43-4F26-84AF-C5D2A3906CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803AEA16-9F43-4F26-84AF-C5D2A3906CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A7FB1A-77C6-49D8-BD78-E55143AC830D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A7FB1A-77C6-49D8-BD78-E55143AC830D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A7FB1A-77C6-49D8-BD78-E55143AC830D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A7FB1A-77C6-49D8-BD78-E55143AC830D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3DF9B3A-D7E5-4CC2-BA03-DAEDBD835342}
+	EndGlobalSection
+EndGlobal
