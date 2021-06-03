@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPSCHomework7", "CPSCHomework7\CPSCHomework7.csproj", "{803AEA16-9F43-4F26-84AF-C5D2A3906CD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CPSCHomework7", "CPSCHomework7\CPSCHomework7.csproj", "{803AEA16-9F43-4F26-84AF-C5D2A3906CD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainTestProject", "MainTestProject\MainTestProject.csproj", "{01A7FB1A-77C6-49D8-BD78-E55143AC830D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainTestProject", "MainTestProject\MainTestProject.csproj", "{01A7FB1A-77C6-49D8-BD78-E55143AC830D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{803AEA16-9F43-4F26-84AF-C5D2A3906CD3} = {803AEA16-9F43-4F26-84AF-C5D2A3906CD3}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

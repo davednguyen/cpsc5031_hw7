@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace CPSCHomework7
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -18,13 +18,6 @@ namespace CPSCHomework7
 
             var names = new string[] { "penny", "dine", "nikkel", "quater" };
 
-            //for(int i = 0; i < 50; i++)
-            //{
-            //    var list = GetChanges(coins, i);
-            //    Console.WriteLine("best coin change: " + TotalCoins(list, names));
-            //    Console.WriteLine(DisplayCoins(list, names, i));
-            //}
-
             for(int i = 0; i < 100; i++)
             {
                 Console.WriteLine(CalculateChange(coins, names, i));
@@ -32,11 +25,11 @@ namespace CPSCHomework7
         }
 
         /// <summary>
-        /// 
+        /// Main function to calculate changes based on coin
         /// </summary>
-        /// <param name="coins"></param>
-        /// <param name="names"></param>
-        /// <param name="change"></param>
+        /// <param name="coins">list of coins</param>
+        /// <param name="names">list of coin names</param>
+        /// <param name="change">required changes</param>
         /// <returns></returns>
         public static string CalculateChange(Dictionary<string, int> coins, string[]names, int change)
         {
@@ -44,6 +37,18 @@ namespace CPSCHomework7
             var total = TotalCoins(calculateChange, names);
             var display = DisplayCoins(calculateChange, names, change);
             return "Total coin: "+ total +" " + display;
+        }
+
+        /// <summary>
+        /// Main function to calculate changes based on coin - for testing purposes 
+        /// </summary>
+        /// <param name="coins">list of coins</param>
+        /// <param name="names">list of coin names</param>
+        /// <param name="change">required changes</param>
+        /// <returns></returns>
+        public string CalculateChanges(Dictionary<string, int> coins, string[] names, int change)
+        {
+            return CalculateChange(coins, names, change);
         }
 
         /// <summary>

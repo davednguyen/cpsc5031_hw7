@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using CPSCHomework7;
 
 namespace MainTestProject
 {
@@ -8,6 +9,8 @@ namespace MainTestProject
         [TestMethod]
         public void MainTest()
         {
+            Program program = new Program();
+            
         }
     }
 }
