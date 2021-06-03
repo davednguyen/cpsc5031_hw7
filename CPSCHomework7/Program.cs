@@ -10,13 +10,14 @@ namespace CPSCHomework7
         {
             var coins = new Dictionary<string, int>()
             {
-                { "penny", 1 },
-                { "dine", 10 },
-                { "nikkel", 5},
-                { "quater", 25}
+                { "Penny", 1 },
+                { "Dime", 10 },
+                { "Nickel", 5},
+                { "Quarter", 25},
+                { "Half Dollar", 50}
             };
 
-            var names = new string[] { "penny", "dine", "nikkel", "quater" };
+            var names = new string[] { "Penny", "Dime", "Nickel", "Quarter", "Half Dollar"};
 
             for(int i = 0; i < 100; i++)
             {
