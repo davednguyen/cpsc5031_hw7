@@ -25,13 +25,13 @@ namespace CPSCHomework7
 
             var names = new string[] { "Penny", "Dime", "Nickel", "Quarter", "Half Dollar"};
 
-            //for(int i = 0; i < 100; i++)
-            //{
-            //    Console.WriteLine(CalculateChange(coins, names, i));
-            //}
-            //Console.WriteLine(CalculateChange(null, names, 50));
+            for (int i = 0; i < 100; i++)
+            {
+                Console.WriteLine(CalculateChange(coins, names, i));
+            }
+            Console.WriteLine(CalculateChange(null, names, 50));
 
-            Console.WriteLine(CalculateChange(coins_short_list, names, 50));
+            //Console.WriteLine(CalculateChange(coins_short_list, names, 50));
         }
 
         /// <summary>
